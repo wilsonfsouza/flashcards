@@ -16,7 +16,7 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    colors,
+    colors: { ...colors, current: 'currentColor' },
     fontFamily: {
       sans: fonts.default,
     },
