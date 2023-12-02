@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html className={inter.className} lang="en">
-      <body className="antialised">{children}</body>
+      <body className="antialised bg-amulet-50 text-shark-950">{children}</body>
     </html>
   )
 }
